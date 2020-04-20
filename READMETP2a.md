@@ -18,7 +18,7 @@ On souhaite pouvoir afficher le nom et le prix du Café choisi.
 
 On souhaite maintenant pouvoir ajouter des suppléments aux boissons : Lait, Sucre, Caramel, Chantilly. L'ajout de sucre ou de lait est facturé 0.1€, de caramel 0.2€ et de chantilly 0.4€. 
 
-- modifiez la solution précédente ; vous mettrez votre code dans le [package exerciceCafe1](src/exerciceCafe2/). 
+- modifiez la solution précédente ; vous mettrez votre code dans le [package exerciceCafe2](src/exerciceCafe2/). 
 - testez en affichant le prix d’un *Expresso avec sucre*, et d’un *Colombia Chantilly Caramel*.
 - présentez votre solution en donnant le diagramme de classes
 - discutez la facilité d’ajouter de nouveaux éléments (boissons et suppléments) 
@@ -26,7 +26,7 @@ On souhaite maintenant pouvoir ajouter des suppléments aux boissons : Lait, Suc
 
 ### Itération 3: Pattern Décorateur
 
-Refactorer en utilisant le design pattern Décorateur. Vous mettrez votre code dans le [package exerciceCafe1](src/exerciceCafe3/). 
+Refactorer en utilisant le design pattern Décorateur. Vous mettrez votre code dans le [package exerciceCafe3](src/exerciceCafe3/). 
 
 - testez en affichant le prix d’un Expresso avec sucre, et d’un Colombia Chantilly Caramel.
 - présentez votre solution en donnant le diagramme de classes et en expliquant comment vous avez appliqué de design pattern Decorateur
