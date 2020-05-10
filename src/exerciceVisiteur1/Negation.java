@@ -7,7 +7,8 @@ public class Negation extends OperateurUnaire{
 
 	@Override
 	public int calculer() {
-		return 0;
+
+		return -getOpG().calculer();
 	}
 
 }
