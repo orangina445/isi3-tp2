@@ -17,4 +17,8 @@ public abstract class OperateurUnaire implements Noeud{
 		return opG;
 	}
 
+	@Override
+	public int accept(Visitor v) {
+		return v.visit(this);
+	}
 }

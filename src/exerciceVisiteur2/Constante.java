@@ -6,6 +6,12 @@ public class Constante implements Noeud{
 		valeur = v;
 	}
 
+	public int getValeur(){
+		return valeur;
+	}
 
-
+	@Override
+	public int accept(Visitor v) {
+		return v.visit(this);
+	}
 }

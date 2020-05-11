@@ -14,17 +14,19 @@ public class ExpressionArithmetique {
 
 	public void afficherPostFixe() {
 		System.out.println("\n postfixe:");
-		
+		PostFixeVisitor postFixeVisitor = new PostFixeVisitor();
+		Noeud n = getRacine();
+		n.accept(postFixeVisitor);
 	}
 
 	public int calculerValeur() {
-		return 0;
+		return getRacine().accept(new CalculVisitor());
 	}
 
 	
 	public void afficherInFixe() {
 		System.out.println("\n infixe:");
-		
+		getRacine().accept(new InfixeVisitor());
 	}
 	
 }

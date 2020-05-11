@@ -8,5 +8,8 @@ public class Multiplication extends OperateurBinaire{
 	}
 
 
-
+	@Override
+	public int accept(Visitor v) {
+		return v.visit(this);
+	}
 }
